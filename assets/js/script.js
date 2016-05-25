@@ -6,20 +6,28 @@ function OrderFormController($scope){
 
 	$scope.services = [
 		{
-			name: 'Web Development',
+			name: 'Data Mining',
 			price: 300,
 			active:true
 		},{
-			name: 'Design',
+			name: 'FrontEnd Design',
 			price: 400,
 			active:false
 		},{
-			name: 'Integration',
+			name: 'Data Integration',
 			price: 250,
 			active:false
 		},{
-			name: 'Training',
+			name: 'Corporate Training',
 			price: 220,
+			active:false
+		},{
+			name: 'Machine Learning',
+			price: 250,
+			active:false
+		},{
+			name: 'Business Insights',
+			price: 250,
 			active:false
 		}
 	];
