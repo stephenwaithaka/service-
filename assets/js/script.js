@@ -11,7 +11,7 @@ function OrderFormController($scope){
 			active:true
 		},{
 			name: 'FrontEnd Design',
-			price: 400,
+			price: 300,
 			active:false
 		},{
 			name: 'Data Integration',
@@ -27,7 +27,7 @@ function OrderFormController($scope){
 			active:false
 		},{
 			name: 'Business Insights',
-			price: 250,
+			price: 100,
 			active:false
 		}
 	];
